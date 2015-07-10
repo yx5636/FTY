@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  UIUtils.h
 //  FTY
 //
 //  Created by XiaoYao on 7/9/15.
@@ -8,9 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface UIUtils : UIViewController
 
-@property (strong, nonatomic) UIWindow *window;
++ (void)popAlert:(NSString *)message;
+
 
 @end
-

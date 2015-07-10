@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		131708951B4F19490087FB3B /* CreateAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 131708941B4F19490087FB3B /* CreateAccount.m */; };
 		1317089A1B4F26D10087FB3B /* CustomizedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 131708991B4F26D10087FB3B /* CustomizedButton.m */; };
+		1317089E1B4F565B0087FB3B /* UIUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1317089D1B4F565B0087FB3B /* UIUtils.m */; };
+		13467F031B5040E5004D9DB0 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13467F021B5040E5004D9DB0 /* RootViewController.m */; };
+		13467F071B504481004D9DB0 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13467F061B504481004D9DB0 /* MenuViewController.m */; };
+		13467F0A1B504725004D9DB0 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13467F091B504725004D9DB0 /* NavigationController.m */; };
+		13467F0C1B504B25004D9DB0 /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 13467F0B1B504B25004D9DB0 /* profile.png */; };
+		13467F151B50529E004D9DB0 /* CampaignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13467F141B50529E004D9DB0 /* CampaignViewController.m */; };
 		137C65141B4EDEA900C6861F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 137C65131B4EDEA900C6861F /* main.m */; };
 		137C65171B4EDEA900C6861F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 137C65161B4EDEA900C6861F /* AppDelegate.m */; };
 		137C651A1B4EDEA900C6861F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 137C65191B4EDEA900C6861F /* ViewController.m */; };
@@ -16,6 +22,7 @@
 		137C651F1B4EDEA900C6861F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 137C651E1B4EDEA900C6861F /* Images.xcassets */; };
 		137C65221B4EDEA900C6861F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 137C65201B4EDEA900C6861F /* LaunchScreen.xib */; };
 		137C652E1B4EDEAA00C6861F /* FTYTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 137C652D1B4EDEAA00C6861F /* FTYTests.m */; };
+		DDB8FD4CADE1DDC9AC481A07 /* libPods-FTY.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DB318E8BAE5FAF79D70D9ED /* libPods-FTY.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +40,17 @@
 		131708941B4F19490087FB3B /* CreateAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateAccount.m; sourceTree = "<group>"; };
 		131708981B4F26D10087FB3B /* CustomizedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomizedButton.h; sourceTree = "<group>"; };
 		131708991B4F26D10087FB3B /* CustomizedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomizedButton.m; sourceTree = "<group>"; };
+		1317089C1B4F565B0087FB3B /* UIUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIUtils.h; sourceTree = "<group>"; };
+		1317089D1B4F565B0087FB3B /* UIUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIUtils.m; sourceTree = "<group>"; };
+		13467F011B5040E5004D9DB0 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		13467F021B5040E5004D9DB0 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		13467F051B504481004D9DB0 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		13467F061B504481004D9DB0 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		13467F081B504725004D9DB0 /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
+		13467F091B504725004D9DB0 /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
+		13467F0B1B504B25004D9DB0 /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile.png; sourceTree = "<group>"; };
+		13467F131B50529E004D9DB0 /* CampaignViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CampaignViewController.h; sourceTree = "<group>"; };
+		13467F141B50529E004D9DB0 /* CampaignViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CampaignViewController.m; sourceTree = "<group>"; };
 		137C650E1B4EDEA900C6861F /* FTY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FTY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		137C65121B4EDEA900C6861F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		137C65131B4EDEA900C6861F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -46,6 +64,9 @@
 		137C65271B4EDEAA00C6861F /* FTYTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FTYTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		137C652C1B4EDEAA00C6861F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		137C652D1B4EDEAA00C6861F /* FTYTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTYTests.m; sourceTree = "<group>"; };
+		55F88979DD166D7A3E8C76ED /* Pods-FTY.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FTY.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FTY/Pods-FTY.debug.xcconfig"; sourceTree = "<group>"; };
+		6DB318E8BAE5FAF79D70D9ED /* libPods-FTY.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FTY.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDCB7A9CDFFC75705CC5D6D9 /* Pods-FTY.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FTY.release.xcconfig"; path = "Pods/Target Support Files/Pods-FTY/Pods-FTY.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDB8FD4CADE1DDC9AC481A07 /* libPods-FTY.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,9 +110,48 @@
 			isa = PBXGroup;
 			children = (
 				131708981B4F26D10087FB3B /* CustomizedButton.h */,
+				1317089C1B4F565B0087FB3B /* UIUtils.h */,
+				1317089D1B4F565B0087FB3B /* UIUtils.m */,
 				131708991B4F26D10087FB3B /* CustomizedButton.m */,
 			);
 			name = Utils;
+			sourceTree = "<group>";
+		};
+		13467F041B5040F1004D9DB0 /* REFrosted */ = {
+			isa = PBXGroup;
+			children = (
+				13467F0B1B504B25004D9DB0 /* profile.png */,
+				13467F011B5040E5004D9DB0 /* RootViewController.h */,
+				13467F021B5040E5004D9DB0 /* RootViewController.m */,
+				13467F051B504481004D9DB0 /* MenuViewController.h */,
+				13467F061B504481004D9DB0 /* MenuViewController.m */,
+				13467F081B504725004D9DB0 /* NavigationController.h */,
+				13467F091B504725004D9DB0 /* NavigationController.m */,
+			);
+			name = REFrosted;
+			sourceTree = "<group>";
+		};
+		13467F0D1B504E5F004D9DB0 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Account;
+			sourceTree = "<group>";
+		};
+		13467F0E1B504E6E004D9DB0 /* Campaign */ = {
+			isa = PBXGroup;
+			children = (
+				13467F131B50529E004D9DB0 /* CampaignViewController.h */,
+				13467F141B50529E004D9DB0 /* CampaignViewController.m */,
+			);
+			name = Campaign;
+			sourceTree = "<group>";
+		};
+		13467F0F1B504E76004D9DB0 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Analytics;
 			sourceTree = "<group>";
 		};
 		137C65051B4EDEA900C6861F = {
@@ -99,6 +160,8 @@
 				137C65101B4EDEA900C6861F /* FTY */,
 				137C652A1B4EDEAA00C6861F /* FTYTests */,
 				137C650F1B4EDEA900C6861F /* Products */,
+				8DF0B4A71182632F38CB3F4D /* Pods */,
+				DE32E9A667FE695451E2153A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -114,9 +177,13 @@
 		137C65101B4EDEA900C6861F /* FTY */ = {
 			isa = PBXGroup;
 			children = (
+				13467F0F1B504E76004D9DB0 /* Analytics */,
+				13467F0E1B504E6E004D9DB0 /* Campaign */,
+				13467F0D1B504E5F004D9DB0 /* Account */,
 				137C65151B4EDEA900C6861F /* AppDelegate.h */,
 				137C65161B4EDEA900C6861F /* AppDelegate.m */,
 				137C651B1B4EDEA900C6861F /* Main.storyboard */,
+				13467F041B5040F1004D9DB0 /* REFrosted */,
 				1317089B1B4F26D60087FB3B /* Utils */,
 				131708971B4F1A540087FB3B /* Login */,
 				131708961B4F19530087FB3B /* CreateAccount */,
@@ -153,6 +220,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		8DF0B4A71182632F38CB3F4D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55F88979DD166D7A3E8C76ED /* Pods-FTY.debug.xcconfig */,
+				CDCB7A9CDFFC75705CC5D6D9 /* Pods-FTY.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DE32E9A667FE695451E2153A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DB318E8BAE5FAF79D70D9ED /* libPods-FTY.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -160,9 +244,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 137C65311B4EDEAA00C6861F /* Build configuration list for PBXNativeTarget "FTY" */;
 			buildPhases = (
+				15A67FDD1A9736A1494D80FC /* Check Pods Manifest.lock */,
 				137C650A1B4EDEA900C6861F /* Sources */,
 				137C650B1B4EDEA900C6861F /* Frameworks */,
 				137C650C1B4EDEA900C6861F /* Resources */,
+				91E68B140A51A8C249A79FD0 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,6 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				137C651D1B4EDEA900C6861F /* Main.storyboard in Resources */,
+				13467F0C1B504B25004D9DB0 /* profile.png in Resources */,
 				137C65221B4EDEA900C6861F /* LaunchScreen.xib in Resources */,
 				137C651F1B4EDEA900C6861F /* Images.xcassets in Resources */,
 			);
@@ -248,16 +335,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		15A67FDD1A9736A1494D80FC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		91E68B140A51A8C249A79FD0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FTY/Pods-FTY-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		137C650A1B4EDEA900C6861F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				137C651A1B4EDEA900C6861F /* ViewController.m in Sources */,
+				13467F031B5040E5004D9DB0 /* RootViewController.m in Sources */,
 				137C65171B4EDEA900C6861F /* AppDelegate.m in Sources */,
+				13467F0A1B504725004D9DB0 /* NavigationController.m in Sources */,
+				13467F071B504481004D9DB0 /* MenuViewController.m in Sources */,
 				137C65141B4EDEA900C6861F /* main.m in Sources */,
+				13467F151B50529E004D9DB0 /* CampaignViewController.m in Sources */,
 				1317089A1B4F26D10087FB3B /* CustomizedButton.m in Sources */,
 				131708951B4F19490087FB3B /* CreateAccount.m in Sources */,
+				1317089E1B4F565B0087FB3B /* UIUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,6 +506,7 @@
 		};
 		137C65321B4EDEAA00C6861F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55F88979DD166D7A3E8C76ED /* Pods-FTY.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FTY/Info.plist;
@@ -391,6 +517,7 @@
 		};
 		137C65331B4EDEAA00C6861F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDCB7A9CDFFC75705CC5D6D9 /* Pods-FTY.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FTY/Info.plist;

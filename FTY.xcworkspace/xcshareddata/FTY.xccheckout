@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C0EF4DB9-D5DA-4718-B41A-FF4040FF34BC</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FTY</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D4FA30202B887D91244127661C3A7AFDDBECB70A</key>
+		<string>https://github.com/yx5636/FTY.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FTY.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D4FA30202B887D91244127661C3A7AFDDBECB70A</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/yx5636/FTY.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D4FA30202B887D91244127661C3A7AFDDBECB70A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D4FA30202B887D91244127661C3A7AFDDBECB70A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FTY</string>
+		</dict>
+	</array>
+</dict>
+</plist>

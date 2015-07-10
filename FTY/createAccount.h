@@ -11,7 +11,11 @@
 @interface CreateAccount : UIViewController
 
 @property (weak, nonatomic) IBOutlet UITextField *firstName;
-
 @property (weak, nonatomic) IBOutlet UITextField *lastName;
+@property (weak, nonatomic) IBOutlet UITextField *email;
+@property (weak, nonatomic) IBOutlet UITextField *password;
+@property (weak, nonatomic) IBOutlet UITextField *confirmPassword;
+
+@property (weak, nonatomic) IBOutlet UIButton *sumbitButton;
 
 @end
