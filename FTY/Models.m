@@ -81,6 +81,15 @@
     return advancedTargetingParamsArray;
 }
 
+#pragma mark - Analytics Table
++ (NSArray *)analyticsTableCellNamesArray {
+    static NSArray *accountTableCellNamesArray = nil;
+    if (accountTableCellNamesArray == nil) {
+        accountTableCellNamesArray = @[@"cell 0", @"cell 1", @"cell 2"];
+    }
+    return accountTableCellNamesArray;
+}
+
 @end
 
 

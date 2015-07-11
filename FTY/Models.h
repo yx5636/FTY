@@ -26,4 +26,7 @@
 + (NSArray *)basicTargetingParamsArray;
 + (NSArray *)advancedTargetingParamsArray;
 
+// Analytics table
++ (NSArray *)analyticsTableCellNamesArray;
+
 @end

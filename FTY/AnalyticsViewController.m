@@ -30,11 +30,11 @@
     [UIUtils customizeTabBarButton:self.campaignButton];
     [UIUtils customizeTabBarButton:self.analyticsButton];
     [self.accountButton setTag:ACCOUNT_BUTTON_TAG];
-    [self.analyticsButton setTag:ANALYTICS_BUTTON_TAG];
+    [self.campaignButton setTag:CAMPAIGN_BUTTON_TAG];
     [self.accountButton addTarget:self
                            action:@selector(switchStoryBoard:)
                  forControlEvents:UIControlEventTouchUpInside];
-    [self.analyticsButton addTarget:self
+    [self.campaignButton addTarget:self
                              action:@selector(switchStoryBoard:)
                    forControlEvents:UIControlEventTouchUpInside];
 }
@@ -45,7 +45,7 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     // Return the number of rows in the section.
     
-    return [[Models campaignParamsArray] count];
+    return [[Models analyticsTableCellNamesArray] count];
 }
 
 
@@ -56,7 +56,7 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
     }
     
-    cell.textLabel.text = [Models campaignParamsArray][indexPath.row];
+    cell.textLabel.text = [Models analyticsTableCellNamesArray][indexPath.row];
     
     return cell;
 }
