@@ -10,6 +10,7 @@
 
 @implementation Models
 
+#pragma mark - Main Views
 + (NSArray *)mainViewNamesArray {
     static NSArray *mainViewNamesArray = nil;
     if (mainViewNamesArray == nil) {
@@ -26,6 +27,7 @@
     return mainViewControllerNamesArray;
 }
 
+#pragma mark - Account Table
 + (NSArray *)accountTableCellNamesArray {
     static NSArray *accountTableCellNamesArray = nil;
     if (accountTableCellNamesArray == nil) {
@@ -34,4 +36,61 @@
     return accountTableCellNamesArray;
 }
 
+#pragma mark - Campaign Table
++ (NSArray *)campaignParamsArray {
+    static NSArray *campaignParamsArray = nil;
+    if (campaignParamsArray == nil) {
+        campaignParamsArray = @[@"key words", @"Budget", @"Platform", @"Basic Targeting Params", @"Advanced Targeting Params"];
+    }
+    return campaignParamsArray;
+}
+
++ (NSArray *)campaignViewControllersArray {
+    static NSArray *campaignParamsArray = nil;
+    if (campaignParamsArray == nil) {
+        campaignParamsArray = @[@"CampaignKeywordsViewController",
+                                @"CampaignBudgetViewController",
+                                @"CampaignPlatformViewController",
+                                @"CampaignBasicTargetViewController",
+                                @"CampaignAdvacedTargetViewController"];
+    }
+    return campaignParamsArray;
+}
+
++ (NSArray *)platformChoicesArray {
+    static NSArray *plantformChoicesArray = nil;
+    if (plantformChoicesArray == nil) {
+        plantformChoicesArray = @[@"Google", @"Facebook", @"Twitter", @"Pinterest"];
+    }
+    return plantformChoicesArray;
+}
+
++ (NSArray *)basicTargetingParamsArray {
+    static NSArray *basicTargetingParamsArray = nil;
+    if (basicTargetingParamsArray == nil) {
+        basicTargetingParamsArray = @[@"Demographics", @"Location", @"Interest", @"Mobile", @"placement"];
+    }
+    return basicTargetingParamsArray;
+}
+
++ (NSArray *)advancedTargetingParamsArray {
+    static NSArray *advancedTargetingParamsArray = nil;
+    if (advancedTargetingParamsArray == nil) {
+        advancedTargetingParamsArray = @[@"Interests", @"Behaviors", @"Education and workplace", @"Additional"];
+    }
+    return advancedTargetingParamsArray;
+}
+
 @end
+
+
+
+
+
+
+
+
+
+
+
+

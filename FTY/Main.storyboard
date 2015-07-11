@@ -22,7 +22,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eSu-5O-muj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1038" y="316"/>
+            <point key="canvasLocation" x="-1482" y="-408"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ub3-3g-7GE">
@@ -38,7 +38,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zt4-Rz-3aA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-168" y="316"/>
+            <point key="canvasLocation" x="-768" y="-408"/>
         </scene>
         <!--Menu View Controller-->
         <scene sceneID="WGm-Yt-Wdz">
@@ -64,7 +64,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gzx-i1-D7J" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1038" y="1006"/>
+            <point key="canvasLocation" x="-1482" y="266"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="K7L-Ho-Uhn">
@@ -237,7 +237,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Iit-H5-nZ5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="609" y="316"/>
+            <point key="canvasLocation" x="-96" y="-408"/>
         </scene>
         <!--Create Account-->
         <scene sceneID="Lch-Qo-ZPO">
@@ -551,202 +551,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rUk-YM-gS6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1248" y="316"/>
-        </scene>
-        <!--Campaign View Controller-->
-        <scene sceneID="aGQ-q7-A4p">
-            <objects>
-                <viewController storyboardIdentifier="CampaignViewController" id="Fsn-4o-ivE" customClass="CampaignViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="IxQ-Qj-ApQ"/>
-                        <viewControllerLayoutGuide type="bottom" id="cim-eA-RRr"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="G2U-k4-g2D">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="budget" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4ms-HB-6tm">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="78" id="4a0-Hd-vgB"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="4a0-Hd-vgB"/>
-                                    </mask>
-                                </variation>
-                                <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="16" y="28" width="59" height="21"/>
-                                    <mask key="constraints">
-                                        <include reference="4a0-Hd-vgB"/>
-                                    </mask>
-                                </variation>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="4ms-HB-6tm" firstAttribute="top" secondItem="IxQ-Qj-ApQ" secondAttribute="bottom" constant="8" symbolic="YES" id="OPA-vS-wKR"/>
-                            <constraint firstItem="cim-eA-RRr" firstAttribute="top" secondItem="4ms-HB-6tm" secondAttribute="bottom" constant="551" id="otg-sC-fdm"/>
-                        </constraints>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="4ms-HB-6tm"/>
-                            </mask>
-                            <mask key="constraints">
-                                <exclude reference="OPA-vS-wKR"/>
-                                <exclude reference="otg-sC-fdm"/>
-                            </mask>
-                        </variation>
-                        <variation key="widthClass=compact">
-                            <mask key="subviews">
-                                <include reference="4ms-HB-6tm"/>
-                            </mask>
-                            <mask key="constraints">
-                                <include reference="OPA-vS-wKR"/>
-                                <include reference="otg-sC-fdm"/>
-                            </mask>
-                        </variation>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Lzo-zC-GWE" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-168" y="1014"/>
-        </scene>
-        <!--Account View Controller-->
-        <scene sceneID="p0F-Za-iDV">
-            <objects>
-                <viewController storyboardIdentifier="AccountViewController" id="vRP-IH-XU0" customClass="AccountViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="nRt-Ao-GUK"/>
-                        <viewControllerLayoutGuide type="bottom" id="Pbu-Ce-5vX"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="ubp-ro-YDy">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dRx-wN-zDH">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="66" id="o5L-uw-EUb"/>
-                                </constraints>
-                                <state key="normal" title="Account">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="o5L-uw-EUb"/>
-                                    </mask>
-                                </variation>
-                                <variation key="widthClass=compact">
-                                    <mask key="constraints">
-                                        <include reference="o5L-uw-EUb"/>
-                                    </mask>
-                                </variation>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FeI-Jr-lNF">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Analytics">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="w2I-7N-gxm">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </tableView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ks-Rt-6g0">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Campaign">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="9ks-Rt-6g0" firstAttribute="top" secondItem="w2I-7N-gxm" secondAttribute="bottom" constant="31" id="0OH-nr-lOx"/>
-                            <constraint firstItem="w2I-7N-gxm" firstAttribute="leading" secondItem="ubp-ro-YDy" secondAttribute="leading" id="2XU-VA-9Tg"/>
-                            <constraint firstItem="9ks-Rt-6g0" firstAttribute="baseline" secondItem="dRx-wN-zDH" secondAttribute="baseline" id="DWe-7D-Cab"/>
-                            <constraint firstItem="9ks-Rt-6g0" firstAttribute="baseline" secondItem="FeI-Jr-lNF" secondAttribute="baseline" id="DnP-BV-sdZ"/>
-                            <constraint firstAttribute="trailing" secondItem="w2I-7N-gxm" secondAttribute="trailing" id="Pfx-im-5Vb"/>
-                            <constraint firstItem="w2I-7N-gxm" firstAttribute="top" secondItem="nRt-Ao-GUK" secondAttribute="bottom" constant="8" symbolic="YES" id="TpS-TQ-Yiz"/>
-                            <constraint firstItem="dRx-wN-zDH" firstAttribute="leading" secondItem="ubp-ro-YDy" secondAttribute="leadingMargin" id="YqA-pd-zoH"/>
-                            <constraint firstItem="9ks-Rt-6g0" firstAttribute="centerX" secondItem="w2I-7N-gxm" secondAttribute="centerX" id="ZSf-ps-DSU"/>
-                            <constraint firstItem="Pbu-Ce-5vX" firstAttribute="top" secondItem="dRx-wN-zDH" secondAttribute="bottom" constant="8" symbolic="YES" id="anq-Za-b3H"/>
-                            <constraint firstItem="Pbu-Ce-5vX" firstAttribute="top" secondItem="9ks-Rt-6g0" secondAttribute="bottom" constant="8" symbolic="YES" id="rcn-bx-oQL"/>
-                            <constraint firstItem="FeI-Jr-lNF" firstAttribute="trailing" secondItem="ubp-ro-YDy" secondAttribute="trailingMargin" id="uBP-R1-ASk"/>
-                        </constraints>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="dRx-wN-zDH"/>
-                                <exclude reference="FeI-Jr-lNF"/>
-                                <exclude reference="w2I-7N-gxm"/>
-                                <exclude reference="9ks-Rt-6g0"/>
-                            </mask>
-                            <mask key="constraints">
-                                <exclude reference="2XU-VA-9Tg"/>
-                                <exclude reference="Pfx-im-5Vb"/>
-                                <exclude reference="TpS-TQ-Yiz"/>
-                                <exclude reference="YqA-pd-zoH"/>
-                                <exclude reference="0OH-nr-lOx"/>
-                                <exclude reference="DWe-7D-Cab"/>
-                                <exclude reference="DnP-BV-sdZ"/>
-                                <exclude reference="ZSf-ps-DSU"/>
-                                <exclude reference="anq-Za-b3H"/>
-                                <exclude reference="rcn-bx-oQL"/>
-                                <exclude reference="uBP-R1-ASk"/>
-                            </mask>
-                        </variation>
-                        <variation key="widthClass=compact">
-                            <mask key="subviews">
-                                <include reference="dRx-wN-zDH"/>
-                                <include reference="FeI-Jr-lNF"/>
-                                <include reference="w2I-7N-gxm"/>
-                                <include reference="9ks-Rt-6g0"/>
-                            </mask>
-                            <mask key="constraints">
-                                <include reference="2XU-VA-9Tg"/>
-                                <include reference="Pfx-im-5Vb"/>
-                                <include reference="TpS-TQ-Yiz"/>
-                                <include reference="YqA-pd-zoH"/>
-                                <include reference="0OH-nr-lOx"/>
-                                <include reference="DWe-7D-Cab"/>
-                                <include reference="DnP-BV-sdZ"/>
-                                <include reference="ZSf-ps-DSU"/>
-                                <exclude reference="anq-Za-b3H"/>
-                                <include reference="rcn-bx-oQL"/>
-                                <include reference="uBP-R1-ASk"/>
-                            </mask>
-                        </variation>
-                    </view>
-                    <connections>
-                        <outlet property="accountButton" destination="dRx-wN-zDH" id="yGo-sR-t9r"/>
-                        <outlet property="analyticsButton" destination="FeI-Jr-lNF" id="cKx-eD-S2D"/>
-                        <outlet property="campaignButton" destination="9ks-Rt-6g0" id="QDu-I2-wq0"/>
-                        <outlet property="tableView" destination="w2I-7N-gxm" id="3ej-5r-AHC"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="92u-6O-H8p" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="496.5" y="1014"/>
-        </scene>
-        <!--Analytics View Controller-->
-        <scene sceneID="wnO-Rd-cAH">
-            <objects>
-                <viewController storyboardIdentifier="AnalyticsViewController" id="nVw-Eq-uOZ" customClass="AnalyticsViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="o5a-6A-hWd"/>
-                        <viewControllerLayoutGuide type="bottom" id="Cus-3f-0gj"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="QPD-2T-aES">
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Xr4-pj-BJb" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1170" y="1014"/>
+            <point key="canvasLocation" x="576" y="-408"/>
         </scene>
     </scenes>
 </document>

@@ -13,6 +13,12 @@
 		132800821B5087A600DEB55B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 132800811B5087A600DEB55B /* Main.storyboard */; };
 		132800861B508E0300DEB55B /* Models.m in Sources */ = {isa = PBXBuildFile; fileRef = 132800851B508E0300DEB55B /* Models.m */; };
 		132800891B50977100DEB55B /* AnalyticsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 132800881B50977100DEB55B /* AnalyticsViewController.m */; };
+		1328008C1B50C94000DEB55B /* CampaignKeywordsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1328008B1B50C94000DEB55B /* CampaignKeywordsViewController.m */; };
+		1328008E1B50CA1D00DEB55B /* Campaign.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1328008D1B50CA1D00DEB55B /* Campaign.storyboard */; };
+		132800911B50CD1300DEB55B /* CampaignPlatformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 132800901B50CD1300DEB55B /* CampaignPlatformViewController.m */; };
+		132800931B50D33F00DEB55B /* Account.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 132800921B50D33F00DEB55B /* Account.storyboard */; };
+		132800951B50D38400DEB55B /* Analytics.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 132800941B50D38400DEB55B /* Analytics.storyboard */; };
+		132800981B50DDB000DEB55B /* GeneralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 132800971B50DDB000DEB55B /* GeneralViewController.m */; };
 		13467F031B5040E5004D9DB0 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13467F021B5040E5004D9DB0 /* RootViewController.m */; };
 		13467F071B504481004D9DB0 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13467F061B504481004D9DB0 /* MenuViewController.m */; };
 		13467F0A1B504725004D9DB0 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13467F091B504725004D9DB0 /* NavigationController.m */; };
@@ -49,6 +55,15 @@
 		132800851B508E0300DEB55B /* Models.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Models.m; sourceTree = "<group>"; };
 		132800871B50977100DEB55B /* AnalyticsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalyticsViewController.h; sourceTree = "<group>"; };
 		132800881B50977100DEB55B /* AnalyticsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalyticsViewController.m; sourceTree = "<group>"; };
+		1328008A1B50C94000DEB55B /* CampaignKeywordsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CampaignKeywordsViewController.h; sourceTree = "<group>"; };
+		1328008B1B50C94000DEB55B /* CampaignKeywordsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CampaignKeywordsViewController.m; sourceTree = "<group>"; };
+		1328008D1B50CA1D00DEB55B /* Campaign.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Campaign.storyboard; sourceTree = "<group>"; };
+		1328008F1B50CD1300DEB55B /* CampaignPlatformViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CampaignPlatformViewController.h; sourceTree = "<group>"; };
+		132800901B50CD1300DEB55B /* CampaignPlatformViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CampaignPlatformViewController.m; sourceTree = "<group>"; };
+		132800921B50D33F00DEB55B /* Account.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Account.storyboard; sourceTree = "<group>"; };
+		132800941B50D38400DEB55B /* Analytics.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Analytics.storyboard; sourceTree = "<group>"; };
+		132800961B50DDB000DEB55B /* GeneralViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralViewController.h; sourceTree = "<group>"; };
+		132800971B50DDB000DEB55B /* GeneralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneralViewController.m; sourceTree = "<group>"; };
 		13467F011B5040E5004D9DB0 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		13467F021B5040E5004D9DB0 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		13467F051B504481004D9DB0 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
@@ -147,10 +162,11 @@
 		13467F0D1B504E5F004D9DB0 /* Account */ = {
 			isa = PBXGroup;
 			children = (
-				131708971B4F1A540087FB3B /* Login */,
-				131708961B4F19530087FB3B /* CreateAccount */,
+				132800921B50D33F00DEB55B /* Account.storyboard */,
 				132800791B506AA900DEB55B /* AccountViewController.h */,
 				1328007A1B506AA900DEB55B /* AccountViewController.m */,
+				131708971B4F1A540087FB3B /* Login */,
+				131708961B4F19530087FB3B /* CreateAccount */,
 			);
 			name = Account;
 			sourceTree = "<group>";
@@ -158,8 +174,13 @@
 		13467F0E1B504E6E004D9DB0 /* Campaign */ = {
 			isa = PBXGroup;
 			children = (
+				1328008D1B50CA1D00DEB55B /* Campaign.storyboard */,
 				13467F131B50529E004D9DB0 /* CampaignViewController.h */,
 				13467F141B50529E004D9DB0 /* CampaignViewController.m */,
+				1328008A1B50C94000DEB55B /* CampaignKeywordsViewController.h */,
+				1328008B1B50C94000DEB55B /* CampaignKeywordsViewController.m */,
+				1328008F1B50CD1300DEB55B /* CampaignPlatformViewController.h */,
+				132800901B50CD1300DEB55B /* CampaignPlatformViewController.m */,
 			);
 			name = Campaign;
 			sourceTree = "<group>";
@@ -167,6 +188,7 @@
 		13467F0F1B504E76004D9DB0 /* Analytics */ = {
 			isa = PBXGroup;
 			children = (
+				132800941B50D38400DEB55B /* Analytics.storyboard */,
 				132800871B50977100DEB55B /* AnalyticsViewController.h */,
 				132800881B50977100DEB55B /* AnalyticsViewController.m */,
 			);
@@ -196,6 +218,8 @@
 		137C65101B4EDEA900C6861F /* FTY */ = {
 			isa = PBXGroup;
 			children = (
+				132800961B50DDB000DEB55B /* GeneralViewController.h */,
+				132800971B50DDB000DEB55B /* GeneralViewController.m */,
 				132800811B5087A600DEB55B /* Main.storyboard */,
 				137C65151B4EDEA900C6861F /* AppDelegate.h */,
 				137C65161B4EDEA900C6861F /* AppDelegate.m */,
@@ -338,8 +362,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				13467F0C1B504B25004D9DB0 /* profile.png in Resources */,
+				1328008E1B50CA1D00DEB55B /* Campaign.storyboard in Resources */,
 				137C65221B4EDEA900C6861F /* LaunchScreen.xib in Resources */,
 				137C651F1B4EDEA900C6861F /* Images.xcassets in Resources */,
+				132800951B50D38400DEB55B /* Analytics.storyboard in Resources */,
+				132800931B50D33F00DEB55B /* Account.storyboard in Resources */,
 				132800821B5087A600DEB55B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -392,6 +419,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				137C651A1B4EDEA900C6861F /* ViewController.m in Sources */,
+				132800981B50DDB000DEB55B /* GeneralViewController.m in Sources */,
 				13467F031B5040E5004D9DB0 /* RootViewController.m in Sources */,
 				137C65171B4EDEA900C6861F /* AppDelegate.m in Sources */,
 				132800891B50977100DEB55B /* AnalyticsViewController.m in Sources */,
@@ -399,7 +427,9 @@
 				13467F071B504481004D9DB0 /* MenuViewController.m in Sources */,
 				137C65141B4EDEA900C6861F /* main.m in Sources */,
 				132800861B508E0300DEB55B /* Models.m in Sources */,
+				1328008C1B50C94000DEB55B /* CampaignKeywordsViewController.m in Sources */,
 				13467F151B50529E004D9DB0 /* CampaignViewController.m in Sources */,
+				132800911B50CD1300DEB55B /* CampaignPlatformViewController.m in Sources */,
 				131708951B4F19490087FB3B /* CreateAccount.m in Sources */,
 				1328007B1B506AA900DEB55B /* AccountViewController.m in Sources */,
 				1317089E1B4F565B0087FB3B /* UIUtils.m in Sources */,

@@ -92,13 +92,15 @@
 {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     NavigationController *navigationController = [self.storyboard instantiateViewControllerWithIdentifier:@"NavigationController"];
-    ViewController *viewController = nil;
+    UIViewController *viewController = nil;
     
     if (indexPath.section == 0) {
         viewController = [self.storyboard instantiateViewControllerWithIdentifier:@"LoginViewController"];
     } else {
+        NSString *storyBoard = [Models mainViewNamesArray][indexPath.row];
         NSString *identifier = [Models mainViewControllerNamesArray][indexPath.row];
-        viewController = [self.storyboard instantiateViewControllerWithIdentifier:identifier];
+        viewController = [UIUtils jumpToStoryBoard:storyBoard
+                                    withIdentifier:identifier];
         [navigationController pushViewController:viewController animated:YES];
     }
     

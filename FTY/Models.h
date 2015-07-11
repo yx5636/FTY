@@ -16,7 +16,14 @@
 + (NSArray *)mainViewNamesArray;
 + (NSArray *)mainViewControllerNamesArray;
 
-// Account table cell names
+// Account table
 + (NSArray *)accountTableCellNamesArray;
+
+// Campaign table
++ (NSArray *)campaignParamsArray;
++ (NSArray *)campaignViewControllersArray;
++ (NSArray *)platformChoicesArray;
++ (NSArray *)basicTargetingParamsArray;
++ (NSArray *)advancedTargetingParamsArray;
 
 @end

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Account View Controller-->
+        <scene sceneID="o7J-ms-A9w">
+            <objects>
+                <viewController storyboardIdentifier="AccountViewController" id="bW6-i2-yd0" customClass="AccountViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PfK-MK-v4U"/>
+                        <viewControllerLayoutGuide type="bottom" id="ntG-5V-gEZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="96m-3g-wGx">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1n8-8b-RpZ">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="66" id="mov-fZ-2t3"/>
+                                </constraints>
+                                <state key="normal" title="Account">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="mov-fZ-2t3"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="mov-fZ-2t3"/>
+                                    </mask>
+                                </variation>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KE5-F5-uDw">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Analytics">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="aMP-S0-R53">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pdO-aG-AVT">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Campaign">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ntG-5V-gEZ" firstAttribute="top" secondItem="1n8-8b-RpZ" secondAttribute="bottom" constant="8" symbolic="YES" id="0Pk-ne-NeI"/>
+                            <constraint firstItem="1n8-8b-RpZ" firstAttribute="leading" secondItem="96m-3g-wGx" secondAttribute="leadingMargin" id="16j-iF-xHy"/>
+                            <constraint firstItem="ntG-5V-gEZ" firstAttribute="top" secondItem="pdO-aG-AVT" secondAttribute="bottom" constant="8" symbolic="YES" id="2Yy-6L-HPq"/>
+                            <constraint firstItem="pdO-aG-AVT" firstAttribute="baseline" secondItem="KE5-F5-uDw" secondAttribute="baseline" id="2xw-cG-I3t"/>
+                            <constraint firstItem="pdO-aG-AVT" firstAttribute="baseline" secondItem="1n8-8b-RpZ" secondAttribute="baseline" id="ByU-iN-b0D"/>
+                            <constraint firstItem="pdO-aG-AVT" firstAttribute="top" secondItem="aMP-S0-R53" secondAttribute="bottom" constant="31" id="Chd-tV-QiY"/>
+                            <constraint firstItem="aMP-S0-R53" firstAttribute="top" secondItem="PfK-MK-v4U" secondAttribute="bottom" constant="8" symbolic="YES" id="W7A-mO-AUG"/>
+                            <constraint firstItem="aMP-S0-R53" firstAttribute="leading" secondItem="96m-3g-wGx" secondAttribute="leading" id="XWg-aO-Obi"/>
+                            <constraint firstAttribute="trailing" secondItem="aMP-S0-R53" secondAttribute="trailing" id="emP-JR-Bu2"/>
+                            <constraint firstItem="KE5-F5-uDw" firstAttribute="trailing" secondItem="96m-3g-wGx" secondAttribute="trailingMargin" id="uAZ-hf-ieQ"/>
+                            <constraint firstItem="pdO-aG-AVT" firstAttribute="centerX" secondItem="aMP-S0-R53" secondAttribute="centerX" id="xeu-Mt-HRR"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="1n8-8b-RpZ"/>
+                                <exclude reference="KE5-F5-uDw"/>
+                                <exclude reference="aMP-S0-R53"/>
+                                <exclude reference="pdO-aG-AVT"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="XWg-aO-Obi"/>
+                                <exclude reference="emP-JR-Bu2"/>
+                                <exclude reference="W7A-mO-AUG"/>
+                                <exclude reference="16j-iF-xHy"/>
+                                <exclude reference="Chd-tV-QiY"/>
+                                <exclude reference="ByU-iN-b0D"/>
+                                <exclude reference="2xw-cG-I3t"/>
+                                <exclude reference="xeu-Mt-HRR"/>
+                                <exclude reference="0Pk-ne-NeI"/>
+                                <exclude reference="2Yy-6L-HPq"/>
+                                <exclude reference="uAZ-hf-ieQ"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="1n8-8b-RpZ"/>
+                                <include reference="KE5-F5-uDw"/>
+                                <include reference="aMP-S0-R53"/>
+                                <include reference="pdO-aG-AVT"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="XWg-aO-Obi"/>
+                                <include reference="emP-JR-Bu2"/>
+                                <include reference="W7A-mO-AUG"/>
+                                <include reference="16j-iF-xHy"/>
+                                <include reference="Chd-tV-QiY"/>
+                                <include reference="ByU-iN-b0D"/>
+                                <include reference="2xw-cG-I3t"/>
+                                <include reference="xeu-Mt-HRR"/>
+                                <exclude reference="0Pk-ne-NeI"/>
+                                <include reference="2Yy-6L-HPq"/>
+                                <include reference="uAZ-hf-ieQ"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="accountButton" destination="1n8-8b-RpZ" id="JU2-Mg-NJ8"/>
+                        <outlet property="analyticsButton" destination="KE5-F5-uDw" id="3rK-kZ-O9I"/>
+                        <outlet property="campaignButton" destination="pdO-aG-AVT" id="kh2-NX-dSw"/>
+                        <outlet property="tableView" destination="aMP-S0-R53" id="M9g-OT-IjK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qg7-YQ-mLW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-919.5" y="939"/>
+        </scene>
+    </scenes>
+</document>

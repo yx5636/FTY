@@ -12,9 +12,10 @@
 : UIViewController <UITableViewDelegate, UITableViewDataSource>
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (weak, nonatomic) IBOutlet UIButton *accountButton;
 @property (weak, nonatomic) IBOutlet UIButton *campaignButton;
 @property (weak, nonatomic) IBOutlet UIButton *analyticsButton;
-@property (weak, nonatomic) IBOutlet UIButton *accountButton;
 
+@property (nonatomic) BOOL pushNotification;
 
 @end

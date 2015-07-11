@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Analytics View Controller-->
+        <scene sceneID="mao-YL-UeQ">
+            <objects>
+                <viewController storyboardIdentifier="AnalyticsViewController" id="hnk-9l-aki" customClass="AnalyticsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dGx-DX-5Bp"/>
+                        <viewControllerLayoutGuide type="bottom" id="3Iy-0A-Ofc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yby-iV-EYE">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uMm-ck-xbn">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="66" id="zC5-bT-ggw"/>
+                                </constraints>
+                                <state key="normal" title="Account">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="zC5-bT-ggw"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="zC5-bT-ggw"/>
+                                    </mask>
+                                </variation>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u3d-aV-w26">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Analytics">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="oVU-mT-i5J">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uft-9E-xKa">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Campaign">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Uft-9E-xKa" firstAttribute="baseline" secondItem="uMm-ck-xbn" secondAttribute="baseline" id="3lE-Oj-clT"/>
+                            <constraint firstItem="oVU-mT-i5J" firstAttribute="top" secondItem="dGx-DX-5Bp" secondAttribute="bottom" constant="8" symbolic="YES" id="6sm-yp-oZS"/>
+                            <constraint firstItem="uMm-ck-xbn" firstAttribute="leading" secondItem="yby-iV-EYE" secondAttribute="leadingMargin" id="Mig-W6-Y0x"/>
+                            <constraint firstAttribute="trailing" secondItem="oVU-mT-i5J" secondAttribute="trailing" id="VcG-aE-2tN"/>
+                            <constraint firstItem="u3d-aV-w26" firstAttribute="trailing" secondItem="yby-iV-EYE" secondAttribute="trailingMargin" id="XD6-xI-Zme"/>
+                            <constraint firstItem="Uft-9E-xKa" firstAttribute="baseline" secondItem="u3d-aV-w26" secondAttribute="baseline" id="ZiW-aS-ZOe"/>
+                            <constraint firstItem="oVU-mT-i5J" firstAttribute="leading" secondItem="yby-iV-EYE" secondAttribute="leading" id="b8D-fM-x7p"/>
+                            <constraint firstItem="Uft-9E-xKa" firstAttribute="top" secondItem="oVU-mT-i5J" secondAttribute="bottom" constant="31" id="dZm-vJ-MA8"/>
+                            <constraint firstItem="3Iy-0A-Ofc" firstAttribute="top" secondItem="Uft-9E-xKa" secondAttribute="bottom" constant="8" symbolic="YES" id="g7E-o3-Ef1"/>
+                            <constraint firstItem="3Iy-0A-Ofc" firstAttribute="top" secondItem="uMm-ck-xbn" secondAttribute="bottom" constant="8" symbolic="YES" id="pP1-Wj-FtR"/>
+                            <constraint firstItem="Uft-9E-xKa" firstAttribute="centerX" secondItem="oVU-mT-i5J" secondAttribute="centerX" id="zZV-gr-u2R"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="uMm-ck-xbn"/>
+                                <exclude reference="u3d-aV-w26"/>
+                                <exclude reference="oVU-mT-i5J"/>
+                                <exclude reference="Uft-9E-xKa"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="b8D-fM-x7p"/>
+                                <exclude reference="VcG-aE-2tN"/>
+                                <exclude reference="6sm-yp-oZS"/>
+                                <exclude reference="Mig-W6-Y0x"/>
+                                <exclude reference="dZm-vJ-MA8"/>
+                                <exclude reference="3lE-Oj-clT"/>
+                                <exclude reference="ZiW-aS-ZOe"/>
+                                <exclude reference="zZV-gr-u2R"/>
+                                <exclude reference="pP1-Wj-FtR"/>
+                                <exclude reference="g7E-o3-Ef1"/>
+                                <exclude reference="XD6-xI-Zme"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="uMm-ck-xbn"/>
+                                <include reference="u3d-aV-w26"/>
+                                <include reference="oVU-mT-i5J"/>
+                                <include reference="Uft-9E-xKa"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="b8D-fM-x7p"/>
+                                <include reference="VcG-aE-2tN"/>
+                                <include reference="6sm-yp-oZS"/>
+                                <include reference="Mig-W6-Y0x"/>
+                                <include reference="dZm-vJ-MA8"/>
+                                <include reference="3lE-Oj-clT"/>
+                                <include reference="ZiW-aS-ZOe"/>
+                                <include reference="zZV-gr-u2R"/>
+                                <exclude reference="pP1-Wj-FtR"/>
+                                <include reference="g7E-o3-Ef1"/>
+                                <include reference="XD6-xI-Zme"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="accountButton" destination="uMm-ck-xbn" id="h7O-Zj-NDh"/>
+                        <outlet property="analyticsButton" destination="u3d-aV-w26" id="cTz-xn-l9S"/>
+                        <outlet property="campaignButton" destination="Uft-9E-xKa" id="6wX-9o-xXF"/>
+                        <outlet property="tableView" destination="oVU-mT-i5J" id="Yek-cd-IxU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eSk-0N-AW3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-919.5" y="939"/>
+        </scene>
+    </scenes>
+</document>

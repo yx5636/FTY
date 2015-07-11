@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CampaignViewController : UIViewController
+@interface CampaignViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
+
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (weak, nonatomic) IBOutlet UIButton *accountButton;
+@property (weak, nonatomic) IBOutlet UIButton *campaignButton;
+@property (weak, nonatomic) IBOutlet UIButton *analyticsButton;
+
+@property (nonatomic) BOOL pushNotification;
 
 @end

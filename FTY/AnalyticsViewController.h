@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AnalyticsViewController : UIViewController
+@interface AnalyticsViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
+
+@property (weak, nonatomic) IBOutlet UIButton *accountButton;
+@property (weak, nonatomic) IBOutlet UIButton *campaignButton;
+@property (weak, nonatomic) IBOutlet UIButton *analyticsButton;
+
 
 @end
