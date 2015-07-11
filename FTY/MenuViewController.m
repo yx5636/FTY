@@ -10,6 +10,8 @@
 #import "ViewController.h"
 #import "UIViewController+REFrostedViewController.h"
 #import "NavigationController.h"
+#import "UIUtils.h"
+#import "Models.h"
 
 
 @implementation MenuViewController
@@ -69,7 +71,7 @@
     view.backgroundColor = [UIColor colorWithRed:167/255.0f green:167/255.0f blue:167/255.0f alpha:0.6f];
     
     UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(10, 8, 0, 0)];
-    label.text = @"Manage Your Campaign";
+    label.text = @"Manage Your Campaigns";
     label.font = [UIFont systemFontOfSize:15];
     label.textColor = [UIColor whiteColor];
     label.backgroundColor = [UIColor clearColor];
@@ -90,40 +92,15 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    NavigationController *navigationController = [self.storyboard instantiateViewControllerWithIdentifier:@"ContentController"];
+    NavigationController *navigationController = [self.storyboard instantiateViewControllerWithIdentifier:@"NavigationController"];
+    ViewController *viewController = nil;
+    
     if (indexPath.section == 0) {
-        switch (indexPath.row) {
-            case 0: {
-                ViewController *loginViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"LoginViewController"];
-                navigationController.viewControllers = @[loginViewController];
-                break;
-            }
-            default: {
-                ViewController *loginViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"LoginViewController"];
-                navigationController.viewControllers = @[loginViewController];
-                break;
-            }
-        }
+        viewController = [self.storyboard instantiateViewControllerWithIdentifier:@"LoginViewController"];
     } else {
-        switch (indexPath.row) {
-            case 0: {
-                ViewController *accountViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"AccountViewController"];
-                navigationController.viewControllers = @[accountViewController];
-                break;
-            }
-            case 1: {
-                ViewController *campaignController = [self.storyboard instantiateViewControllerWithIdentifier:@"CampaignViewController"];
-                navigationController.viewControllers = @[campaignController];
-                break;
-            }
-            case 2: {
-                ViewController *campaignController = [self.storyboard instantiateViewControllerWithIdentifier:@"AnalyticsViewController"];
-                navigationController.viewControllers = @[campaignController];
-                break;
-            }
-            default: break;
-        }
-        
+        NSString *identifier = [Models mainViewControllerNamesArray][indexPath.row];
+        viewController = [self.storyboard instantiateViewControllerWithIdentifier:identifier];
+        [navigationController pushViewController:viewController animated:YES];
     }
     
     self.frostedViewController.contentViewController = navigationController;
@@ -162,8 +139,7 @@
         NSArray *titles = @[@"Home", @"Profile", @"Chats"];
         cell.textLabel.text = titles[indexPath.row];
     } else {
-        NSArray *titles = @[@"Account", @"Campaign", @"Analytics"];
-        cell.textLabel.text = titles[indexPath.row];
+        cell.textLabel.text = [Models mainViewNamesArray][indexPath.row];
     }
     
     return cell;

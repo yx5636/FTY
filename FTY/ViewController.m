@@ -8,12 +8,11 @@
 
 #import "ViewController.h"
 #import "CreateAccount.h"
-#import "CustomizedButton.h"
 #import "UIUtils.h"
 
 @interface ViewController () <UITextFieldDelegate>
-@property (weak, nonatomic) IBOutlet CustomizedButton *loginButton;
-@property (weak, nonatomic) IBOutlet CustomizedButton *createAccountButton;
+@property (weak, nonatomic) IBOutlet UIButton *loginButton;
+@property (weak, nonatomic) IBOutlet UIButton *createAccountButton;
 
 @end
 
@@ -26,8 +25,8 @@
     [super viewDidLoad];
     self.gesture = [[UIPanGestureRecognizer alloc] init];
 
-    [CustomizedButton customizeButton:self.loginButton];
-    [CustomizedButton customizeButton:self.createAccountButton];
+    [UIUtils customizeButton:self.loginButton];
+    [UIUtils customizeButton:self.createAccountButton];
     self.email.delegate = self;
     self.password.delegate = self;
     self.password.secureTextEntry = YES;

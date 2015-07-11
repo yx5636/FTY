@@ -11,8 +11,8 @@
 @implementation RootViewController
 
 - (void)awakeFromNib {
-    self.contentViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"ContentController"];
-    self.menuViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"MenuController"];
+    self.contentViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"NavigationController"];
+    self.menuViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"MenuViewController"];
 }
 
 @end

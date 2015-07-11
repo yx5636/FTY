@@ -8,8 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		131708951B4F19490087FB3B /* CreateAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 131708941B4F19490087FB3B /* CreateAccount.m */; };
-		1317089A1B4F26D10087FB3B /* CustomizedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 131708991B4F26D10087FB3B /* CustomizedButton.m */; };
 		1317089E1B4F565B0087FB3B /* UIUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1317089D1B4F565B0087FB3B /* UIUtils.m */; };
+		1328007B1B506AA900DEB55B /* AccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1328007A1B506AA900DEB55B /* AccountViewController.m */; };
+		132800821B5087A600DEB55B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 132800811B5087A600DEB55B /* Main.storyboard */; };
+		132800861B508E0300DEB55B /* Models.m in Sources */ = {isa = PBXBuildFile; fileRef = 132800851B508E0300DEB55B /* Models.m */; };
+		132800891B50977100DEB55B /* AnalyticsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 132800881B50977100DEB55B /* AnalyticsViewController.m */; };
 		13467F031B5040E5004D9DB0 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13467F021B5040E5004D9DB0 /* RootViewController.m */; };
 		13467F071B504481004D9DB0 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13467F061B504481004D9DB0 /* MenuViewController.m */; };
 		13467F0A1B504725004D9DB0 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13467F091B504725004D9DB0 /* NavigationController.m */; };
@@ -18,7 +21,6 @@
 		137C65141B4EDEA900C6861F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 137C65131B4EDEA900C6861F /* main.m */; };
 		137C65171B4EDEA900C6861F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 137C65161B4EDEA900C6861F /* AppDelegate.m */; };
 		137C651A1B4EDEA900C6861F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 137C65191B4EDEA900C6861F /* ViewController.m */; };
-		137C651D1B4EDEA900C6861F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 137C651B1B4EDEA900C6861F /* Main.storyboard */; };
 		137C651F1B4EDEA900C6861F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 137C651E1B4EDEA900C6861F /* Images.xcassets */; };
 		137C65221B4EDEA900C6861F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 137C65201B4EDEA900C6861F /* LaunchScreen.xib */; };
 		137C652E1B4EDEAA00C6861F /* FTYTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 137C652D1B4EDEAA00C6861F /* FTYTests.m */; };
@@ -38,10 +40,15 @@
 /* Begin PBXFileReference section */
 		131708931B4F19490087FB3B /* CreateAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateAccount.h; sourceTree = "<group>"; };
 		131708941B4F19490087FB3B /* CreateAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateAccount.m; sourceTree = "<group>"; };
-		131708981B4F26D10087FB3B /* CustomizedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomizedButton.h; sourceTree = "<group>"; };
-		131708991B4F26D10087FB3B /* CustomizedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomizedButton.m; sourceTree = "<group>"; };
 		1317089C1B4F565B0087FB3B /* UIUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIUtils.h; sourceTree = "<group>"; };
 		1317089D1B4F565B0087FB3B /* UIUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIUtils.m; sourceTree = "<group>"; };
+		132800791B506AA900DEB55B /* AccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountViewController.h; sourceTree = "<group>"; };
+		1328007A1B506AA900DEB55B /* AccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountViewController.m; sourceTree = "<group>"; };
+		132800811B5087A600DEB55B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		132800841B508E0300DEB55B /* Models.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Models.h; sourceTree = "<group>"; };
+		132800851B508E0300DEB55B /* Models.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Models.m; sourceTree = "<group>"; };
+		132800871B50977100DEB55B /* AnalyticsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalyticsViewController.h; sourceTree = "<group>"; };
+		132800881B50977100DEB55B /* AnalyticsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalyticsViewController.m; sourceTree = "<group>"; };
 		13467F011B5040E5004D9DB0 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		13467F021B5040E5004D9DB0 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		13467F051B504481004D9DB0 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
@@ -58,7 +65,6 @@
 		137C65161B4EDEA900C6861F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		137C65181B4EDEA900C6861F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		137C65191B4EDEA900C6861F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		137C651C1B4EDEA900C6861F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		137C651E1B4EDEA900C6861F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		137C65211B4EDEA900C6861F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		137C65271B4EDEAA00C6861F /* FTYTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FTYTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -109,12 +115,19 @@
 		1317089B1B4F26D60087FB3B /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				131708981B4F26D10087FB3B /* CustomizedButton.h */,
 				1317089C1B4F565B0087FB3B /* UIUtils.h */,
 				1317089D1B4F565B0087FB3B /* UIUtils.m */,
-				131708991B4F26D10087FB3B /* CustomizedButton.m */,
 			);
 			name = Utils;
+			sourceTree = "<group>";
+		};
+		132800831B508DCB00DEB55B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				132800841B508E0300DEB55B /* Models.h */,
+				132800851B508E0300DEB55B /* Models.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 		13467F041B5040F1004D9DB0 /* REFrosted */ = {
@@ -134,6 +147,10 @@
 		13467F0D1B504E5F004D9DB0 /* Account */ = {
 			isa = PBXGroup;
 			children = (
+				131708971B4F1A540087FB3B /* Login */,
+				131708961B4F19530087FB3B /* CreateAccount */,
+				132800791B506AA900DEB55B /* AccountViewController.h */,
+				1328007A1B506AA900DEB55B /* AccountViewController.m */,
 			);
 			name = Account;
 			sourceTree = "<group>";
@@ -150,6 +167,8 @@
 		13467F0F1B504E76004D9DB0 /* Analytics */ = {
 			isa = PBXGroup;
 			children = (
+				132800871B50977100DEB55B /* AnalyticsViewController.h */,
+				132800881B50977100DEB55B /* AnalyticsViewController.m */,
 			);
 			name = Analytics;
 			sourceTree = "<group>";
@@ -177,16 +196,15 @@
 		137C65101B4EDEA900C6861F /* FTY */ = {
 			isa = PBXGroup;
 			children = (
+				132800811B5087A600DEB55B /* Main.storyboard */,
+				137C65151B4EDEA900C6861F /* AppDelegate.h */,
+				137C65161B4EDEA900C6861F /* AppDelegate.m */,
+				132800831B508DCB00DEB55B /* Models */,
 				13467F0F1B504E76004D9DB0 /* Analytics */,
 				13467F0E1B504E6E004D9DB0 /* Campaign */,
 				13467F0D1B504E5F004D9DB0 /* Account */,
-				137C65151B4EDEA900C6861F /* AppDelegate.h */,
-				137C65161B4EDEA900C6861F /* AppDelegate.m */,
-				137C651B1B4EDEA900C6861F /* Main.storyboard */,
 				13467F041B5040F1004D9DB0 /* REFrosted */,
 				1317089B1B4F26D60087FB3B /* Utils */,
-				131708971B4F1A540087FB3B /* Login */,
-				131708961B4F19530087FB3B /* CreateAccount */,
 				137C651E1B4EDEA900C6861F /* Images.xcassets */,
 				137C65201B4EDEA900C6861F /* LaunchScreen.xib */,
 				137C65111B4EDEA900C6861F /* Supporting Files */,
@@ -319,10 +337,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				137C651D1B4EDEA900C6861F /* Main.storyboard in Resources */,
 				13467F0C1B504B25004D9DB0 /* profile.png in Resources */,
 				137C65221B4EDEA900C6861F /* LaunchScreen.xib in Resources */,
 				137C651F1B4EDEA900C6861F /* Images.xcassets in Resources */,
+				132800821B5087A600DEB55B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,12 +394,14 @@
 				137C651A1B4EDEA900C6861F /* ViewController.m in Sources */,
 				13467F031B5040E5004D9DB0 /* RootViewController.m in Sources */,
 				137C65171B4EDEA900C6861F /* AppDelegate.m in Sources */,
+				132800891B50977100DEB55B /* AnalyticsViewController.m in Sources */,
 				13467F0A1B504725004D9DB0 /* NavigationController.m in Sources */,
 				13467F071B504481004D9DB0 /* MenuViewController.m in Sources */,
 				137C65141B4EDEA900C6861F /* main.m in Sources */,
+				132800861B508E0300DEB55B /* Models.m in Sources */,
 				13467F151B50529E004D9DB0 /* CampaignViewController.m in Sources */,
-				1317089A1B4F26D10087FB3B /* CustomizedButton.m in Sources */,
 				131708951B4F19490087FB3B /* CreateAccount.m in Sources */,
+				1328007B1B506AA900DEB55B /* AccountViewController.m in Sources */,
 				1317089E1B4F565B0087FB3B /* UIUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,14 +425,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		137C651B1B4EDEA900C6861F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				137C651C1B4EDEA900C6861F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		137C65201B4EDEA900C6861F /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (

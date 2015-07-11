@@ -1,5 +1,5 @@
 //
-//  CampaignViewController.h
+//  AnalyticsViewController.h
 //  FTY
 //
 //  Created by XiaoYao on 7/10/15.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CampaignViewController : UIViewController
+@interface AnalyticsViewController : UIViewController
 
 @end

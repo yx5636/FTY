@@ -7,13 +7,12 @@
 //
 
 #import "CreateAccount.h"
-#import "CustomizedButton.h"
 #import "UIUtils.h"
 
 
 @interface CreateAccount() <UITextFieldDelegate>
 
-@property (weak, nonatomic) IBOutlet CustomizedButton *submitButton;
+@property (weak, nonatomic) IBOutlet UIButton *submitButton;
 
 @end
 
@@ -22,7 +21,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [CustomizedButton customizeButton:self.submitButton];
+    [UIUtils customizeButton:self.submitButton];
     
     self.firstName.delegate = self;
     self.lastName.delegate = self;

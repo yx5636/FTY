@@ -10,7 +10,8 @@
 
 @interface UIUtils : UIViewController
 
++ (void)customizeButton:(UIButton *)button;
++ (void)customizeTabBarButton:(UIButton *)button;
 + (void)popAlert:(NSString *)message;
-
-
++ (UIViewController *)jumpToStoryBoard:(NSString *)storyBoardName withIdentifier:(NSString *)identifier;
 @end
