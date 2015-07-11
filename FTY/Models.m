@@ -26,5 +26,12 @@
     return mainViewControllerNamesArray;
 }
 
++ (NSArray *)accountTableCellNamesArray {
+    static NSArray *accountTableCellNamesArray = nil;
+    if (accountTableCellNamesArray == nil) {
+        accountTableCellNamesArray = @[@"Profile", @"Push Notifications", @"Payment"];
+    }
+    return accountTableCellNamesArray;
+}
 
 @end

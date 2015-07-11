@@ -64,7 +64,7 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
     }
     
-    cell.textLabel.text = [Models mainViewNamesArray][indexPath.row];
+    cell.textLabel.text = [Models accountTableCellNamesArray][indexPath.row];
     
     return cell;
 }

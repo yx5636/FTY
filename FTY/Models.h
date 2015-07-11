@@ -12,7 +12,11 @@
     
 }
 
+// General main view names
 + (NSArray *)mainViewNamesArray;
 + (NSArray *)mainViewControllerNamesArray;
+
+// Account table cell names
++ (NSArray *)accountTableCellNamesArray;
 
 @end
